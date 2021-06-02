@@ -1,0 +1,185 @@
+.App {
+  text-align: center;
+  transition: ease;
+  font-family: 'Barlow',
+  sans-serif;
+  color: whitesmoke;
+  background-color: whitesmoke;
+  }
+
+  .navbar-container {
+    background: url('./assets/bg-pattern-intro.svg'), linear-gradient(15deg, rgb(180, 75, 75) 0%, rgba(196, 60, 60, 1) 34%, rgb(214, 24, 24) 100%);
+    background-position: 20% 50%;
+    color: whitesmoke;
+    border-radius: 0px 0px 0px 80px;
+    padding: 0px 0px 6% 0px;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .left-navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 5% 0px 9% 12%;
+  }
+
+  .right-navbar {
+    margin: 0px 0px 0px 40%
+  }
+
+  h1 {
+    margin: 0px 10px 0px 0px;
+  }
+
+  h2 {
+    font-size: 60px;
+    margin: 0px 0px 50px 0px;
+  }
+
+  h3 {
+    font-size: 20px;
+    margin: 0px 0px 50px 0px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline;
+    margin: 0px 5px 0px 5px;
+  }
+
+  .login-buttons {
+    background-color: #ffffff00;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 50px;
+  }
+
+  .login-buttons:hover {
+    background-color: #ffffff56;
+    transition: .5s;
+    cursor: pointer;
+  }
+
+  .start-btn {
+    background-color: #ffffff00;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 50px;
+  }
+.start-btn:hover {
+  background-color: #ffffff56;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.learn-btn {
+  background-color: #ffffff00;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 50px;
+  }
+
+  .learn-btn:hover {
+    color: #f54747e7;
+    background-color: #fffffff1;
+    transition: .5s;
+    cursor: pointer;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  margin: 0px 0px 0px -5px;
+  background-color: #f9f9f9;
+  color: rgb(34, 34, 34);
+  min-width: 160px;
+  min-height: 10px;
+  padding: 1px 1px;
+  z-index: 1;
+  border-radius: 10px 10px 10px 10px;
+  transition: .5s;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  cursor: pointer;
+}
+li div div p:hover {
+  font-weight: bold;
+  transition: ease-in;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .navbar-container {
+    background: url('./assets/bg-pattern-intro.svg'), linear-gradient(15deg, rgb(180, 75, 75) 0%, rgba(196, 60, 60, 1) 34%, rgb(255, 126, 126) 100%);
+    background-position: 40% 45%;
+    background-size: 1500px 1500px;
+    width: 100%;
+    height: 500px;
+    color: whitesmoke;
+    border-radius: 0px 0px 0px 80px;
+    padding: 0px 0px 0% 0px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .navbar-content-container {
+    width: 80%;
+  }
+
+  .texts-header-container {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0% 0px;
+  }
+
+  .left-navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin: 20px 0px 0px 0px;
+    padding: 5% 0px 0% 0%;
+  }
+
+  .right-navbar {
+    margin: 0px 0px 0px 0%
+  }
+
+  h1 {
+    margin: 0px 0px 5px 0px;
+  }
+
+  h2 {
+    font-size: 30px;
+    margin: 0px 0px 40px 0px;
+  }
+
+  h3 {
+    font-size: 15px;
+    margin: 0px 0px 50px 0px;
+  }
+}

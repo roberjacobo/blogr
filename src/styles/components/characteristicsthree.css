@@ -1,0 +1,40 @@
+.characteristicsthree-main-container {
+  margin: 10px 0px 0px 0px;
+  width: 100%;
+  height: 600px;
+  color: #0c4271;
+  display: flex;
+  flex-direction: row;
+}
+
+.characteristicsthree-images-container {
+  background: url('../../assets/illustration-laptop-desktop.svg');
+  background-position: 103% 0%;
+  background-repeat: no-repeat;
+  background-size: 810px 650px;
+  width: 60%;
+  height: 700px;
+  margin: 0% 0% 0% 0%;
+  padding: 0% 0% 0% 0%;
+  position: relative;
+}
+
+.texts-container-three {
+  width: 50%;
+  margin: 10% 0% 0% 10%;
+  padding: 0% 10% 0% 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.texts-container-three h3 {
+  margin: 5% 0% 2% 0%;
+}
+
+.texts-container-three p {
+  text-align: left;
+  font-size: 80%;
+  line-height: 200%;
+  margin: 5% 0% 2% 0%;
+}

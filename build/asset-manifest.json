@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6d6ef54e.chunk.css",
+    "main.js": "/static/js/main.1697a2e3.chunk.js",
+    "main.js.map": "/static/js/main.1697a2e3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5b4b0dfc.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5b4b0dfc.js.map",
+    "static/js/2.78216f14.chunk.js": "/static/js/2.78216f14.chunk.js",
+    "static/js/2.78216f14.chunk.js.map": "/static/js/2.78216f14.chunk.js.map",
+    "static/js/3.fda980e0.chunk.js": "/static/js/3.fda980e0.chunk.js",
+    "static/js/3.fda980e0.chunk.js.map": "/static/js/3.fda980e0.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.6d6ef54e.chunk.css.map": "/static/css/main.6d6ef54e.chunk.css.map",
+    "static/js/2.78216f14.chunk.js.LICENSE.txt": "/static/js/2.78216f14.chunk.js.LICENSE.txt",
+    "static/media/characteristicstwo.css": "/static/media/illustration-phones.fd23559f.svg",
+    "static/media/App.css": "/static/media/bg-pattern-intro.bf6b3e1b.svg",
+    "static/media/characteristics.css": "/static/media/illustration-editor-desktop.c6c8050a.svg",
+    "static/media/characteristicsthree.css": "/static/media/illustration-laptop-desktop.799209c2.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5b4b0dfc.js",
+    "static/js/2.78216f14.chunk.js",
+    "static/css/main.6d6ef54e.chunk.css",
+    "static/js/main.1697a2e3.chunk.js"
+  ]
+}
