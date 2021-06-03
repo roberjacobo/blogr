@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.6cbdb69e.chunk.css",
+    "main.css": "/static/css/main.1accf5e9.chunk.css",
     "main.js": "/static/js/main.f1c16751.chunk.js",
     "main.js.map": "/static/js/main.f1c16751.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5b4b0dfc.js",
@@ -10,7 +10,7 @@
     "static/js/3.fda980e0.chunk.js": "/static/js/3.fda980e0.chunk.js",
     "static/js/3.fda980e0.chunk.js.map": "/static/js/3.fda980e0.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.6cbdb69e.chunk.css.map": "/static/css/main.6cbdb69e.chunk.css.map",
+    "static/css/main.1accf5e9.chunk.css.map": "/static/css/main.1accf5e9.chunk.css.map",
     "static/js/2.78216f14.chunk.js.LICENSE.txt": "/static/js/2.78216f14.chunk.js.LICENSE.txt",
     "static/media/characteristicstwo.css": "/static/media/illustration-phones.fd23559f.svg",
     "static/media/App.css": "/static/media/icon-hamburger.68867946.svg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.5b4b0dfc.js",
     "static/js/2.78216f14.chunk.js",
-    "static/css/main.6cbdb69e.chunk.css",
+    "static/css/main.1accf5e9.chunk.css",
     "static/js/main.f1c16751.chunk.js"
   ]
 }
