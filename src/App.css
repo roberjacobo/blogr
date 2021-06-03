@@ -136,6 +136,15 @@ li div div p:hover {
 
 @media only screen and (max-width: 600px) {
 
+  .burger-menu {
+    background: url('./assets/icon-hamburger.svg');
+    display: none;
+  }
+
+  .burger-menu:hover {
+    background: url('./assets/icon-hamburger.svg');
+    display: none;
+  }
   .navbar-container {
     background: url('./assets/bg-pattern-intro.svg'), linear-gradient(15deg, rgb(180, 75, 75) 0%, rgba(196, 60, 60, 1) 34%, rgb(255, 126, 126) 100%);
     background-position: 40% 45%;
@@ -158,16 +167,48 @@ li div div p:hover {
   }
 
   .left-navbar {
+    background-size: 30px auto;
     display: flex;
     flex-direction: row;
-    align-items: baseline;
-    margin: 20px 0px 0px 0px;
-    padding: 5% 0px 0% 0%;
+    margin: 10px 0px 0px 15px;
+    padding: 2% 0px 0% 0%;
   }
 
   .right-navbar {
     margin: 0px 0px 0px 0%
   }
+
+.login-buttons:hover {
+  background-color: #ffffff56;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.start-btn {
+  background-color: #ffffff00;
+  border: none;
+  color: #f54747e7;
+  padding: 12px 28px;
+  font-size: 14px;
+  background-color: #ffffffe0;
+  transition: .5s;
+  cursor: pointer;
+  margin: 0px 1% 0px 0px;
+}
+
+.learn-btn {
+  background-color: #ffffff00;
+  margin: 0px 0% 0px 1%;
+  border: white solid;
+  color: white;
+  padding: 12px 28px;
+  font-size: 14px;
+  border-radius: 50px;
+  color: #ffffffe7;
+  background-color: #ffffff00;
+  transition: .5s;
+  cursor: pointer;
+}
 
   h1 {
     margin: 0px 0px 5px 0px;
@@ -175,7 +216,7 @@ li div div p:hover {
 
   h2 {
     font-size: 30px;
-    margin: 0px 0px 40px 0px;
+    margin: 15% 0px 40px 0px;
   }
 
   h3 {

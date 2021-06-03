@@ -7,7 +7,7 @@ const Characteristicstwo = () => {
       <div className="blogr-phone-image"></div>
       <div className="characteristicstwo-container">
       <div className="texts-container-two">
-        <h1>State of the Art Infrastructure</h1>
+          <h3>State of the Art Infrastructure</h3>
         <p>
           With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity.
           This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
