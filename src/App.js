@@ -9,10 +9,10 @@ function App() {
   return (
     <div className="App">
       <Header />
-      {/* <Characteristics />
+      <Characteristics />
       <Characteristicstwo />
       <Characteristicsthree />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 }
