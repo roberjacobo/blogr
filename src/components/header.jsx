@@ -8,9 +8,7 @@ const Header = () => {
 
       <div className="navbar">
         <div className="left-navbar">
-          <h1>Blogr</h1>
-            <div className="burger-menu">
-
+            <h1>Blogr</h1>
           <ul>
             <li>
               <div className="dropdown">
@@ -38,7 +36,8 @@ const Header = () => {
                 </div>
               </div>
             </li>
-              </ul>
+            </ul>
+          </div>
         <div className="right-navbar">
           <ul>
             <li>
@@ -49,8 +48,6 @@ const Header = () => {
             </li>
           </ul>
         </div>
-            </div>
-          </div>
         </div>
         <div className="texts-header-container">
         <h2>A modern publishing platform</h2>
