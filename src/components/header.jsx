@@ -13,20 +13,20 @@ const Header = () => {
               <ul className="mobile-navbar-content">
                 <li>
                   <div className="dropdown-mobile">
-                    <div><span>Product</span><button className="mobile-dropdown-btn"><img src={ArrowImg} alt="arrow image" /></button></div>
+                    <div><span>Product</span><button className="mobile-dropdown-btn"><image src={ArrowImg} alt="arrow image" /></button></div>
                     <div className="dropdown-content-mobile">
                       <p>Hello World!</p>
                     </div>
                   </div>
                 </li>
-                <li> <span>Company</span><div><button className="mobile-dropdown-btn"><img src={ArrowImg} alt="arrow image" /></button></div></li>
-                <li><span>Connect</span><div><button className="mobile-dropdown-btn"><img src={ArrowImg} alt="arrow image" /></button></div></li>
+                <li> <span>Company</span><div><button className="mobile-dropdown-btn"><image src={ArrowImg} alt="arrow image 2" /></button></div></li>
+                <li><span>Connect</span><div><button className="mobile-dropdown-btn"><image src={ArrowImg} alt="arrow image 3" /></button></div></li>
                 <hr />
                 <li><button className="login-buttons-mobile">Login</button></li>
                 <li><button className="login-buttons-mobile">Sign Up</button></li>
               </ul>
             </div>
-            <ul>
+            <ul className="ul-web">
               <li>
                 <div className="dropdown">
                   <span>Product</span>
