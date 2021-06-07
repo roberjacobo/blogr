@@ -2,87 +2,101 @@
   text-align: center;
   transition: ease;
   font-family: 'Barlow',
-  sans-serif;
+    sans-serif;
   color: whitesmoke;
   background-color: whitesmoke;
+}
+
+.mobile-navbar {
+  display: none;
+}
+
+.navbar-container {
+  background: url('./assets/bg-pattern-intro.svg'), linear-gradient(15deg, rgb(180, 75, 75) 0%, rgba(196, 60, 60, 1) 34%, rgb(214, 24, 24) 100%);
+  background-position: 20% 50%;
+  color: whitesmoke;
+  border-radius: 0px 0px 0px 80px;
+  padding: 0px 0px 6% 0px;
+}
+
+.burger-container {
+  display: none;
+}
+
+.burger-btn {
+  display: none;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin: 0px 0px 0px 0px;
+}
+
+.left-navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  padding: 5% 8% 9% 12%;
   }
 
-  .navbar-container {
-    background: url('./assets/bg-pattern-intro.svg'), linear-gradient(15deg, rgb(180, 75, 75) 0%, rgba(196, 60, 60, 1) 34%, rgb(214, 24, 24) 100%);
-    background-position: 20% 50%;
-    color: whitesmoke;
-    border-radius: 0px 0px 0px 80px;
-    padding: 0px 0px 6% 0px;
+.right-navbar {
+  margin: 0px 0px 0px 20%
   }
 
-  .navbar {
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    margin: 0px 0px 0px 0px;
+h1 {
+  margin: 0px 10px 0px 0px;
+}
+
+h2 {
+  font-size: 60px;
+  margin: 0px 0px 50px 0px;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 0px 0px 50px 0px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   }
 
-  .left-navbar {
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    padding: 5% 0px 9% 12%;
-  }
+li {
+  display: inline;
+  margin: 0px 5px 0px 5px;
+}
 
-  .right-navbar {
-    margin: 0px 0px 0px 40%
-  }
+.login-buttons {
+  background-color: #ffffff00;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 50px;
+}
 
-  h1 {
-    margin: 0px 10px 0px 0px;
-  }
+.login-buttons:hover {
+  background-color: #ffffff56;
+  transition: .5s;
+  cursor: pointer;
+}
 
-  h2 {
-    font-size: 60px;
-    margin: 0px 0px 50px 0px;
-  }
-
-  h3 {
-    font-size: 20px;
-    margin: 0px 0px 50px 0px;
-  }
-
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  li {
-    display: inline;
-    margin: 0px 5px 0px 5px;
-  }
-
-  .login-buttons {
-    background-color: #ffffff00;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    font-size: 16px;
-    border-radius: 50px;
-  }
-
-  .login-buttons:hover {
-    background-color: #ffffff56;
-    transition: .5s;
-    cursor: pointer;
-  }
-
-  .start-btn {
-    background-color: #ffffff00;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    font-size: 16px;
-    border-radius: 50px;
-  }
+.start-btn {
+  background-color: #ffffff00;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 50px;
+}
 .start-btn:hover {
   background-color: #ffffff56;
   transition: .5s;
@@ -97,19 +111,18 @@
   text-align: center;
   font-size: 16px;
   border-radius: 50px;
-  }
+}
 
-  .learn-btn:hover {
-    color: #f54747e7;
-    background-color: #fffffff1;
-    transition: .5s;
-    cursor: pointer;
-  }
+.learn-btn:hover {
+  color: #f54747e7;
+  background-color: #fffffff1;
+  transition: .5s;
+  cursor: pointer;
+}
 
-  .dropdown {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
+.dropdown {
+  display: flex;
+  flex-direction: row;
 }
 
 .dropdown-content {
@@ -136,14 +149,96 @@ li div div p:hover {
 
 @media only screen and (max-width: 600px) {
 
-  .burger-menu {
-    background: url('./assets/icon-hamburger.svg');
-    display: none;
-  }
+.dropdown {
+  display: none;
+}
 
-  .burger-menu:hover {
-    background: url('./assets/icon-hamburger.svg');
+.left-navbar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  padding: 0% 0% 9% 10%;
+  margin: 0% 0% -10% 0%;
+}
+
+.mobile-navbar {
+  display: flex;
+  position: fix;
+  top: 50%;
+  left: 50%;
+  right: 50%;
+  transform: translate(0%, 20%);
+  z-index: 1;
+  color: rgb(34, 34, 34);
+  width: 100%;
+  height: 160%;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.mobile-navbar-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+hr {
+  background-color: rgba(128, 128, 128, 0.027);
+  width: 90%;
+}
+
+li {
+  margin: 10px 0px 10px 0px;
+}
+
+.mobile-navbar li {
+  display: flex;
+  flex-direction: space-between;
+}
+
+.mobile-dropdown-btn {
+  border: none;
+  color: rgb(12, 12, 12);
+  text-align: center;
+  font-size: 10px;
+}
+
+.dropdown-content-mobile {
     display: none;
+    transition: .5s;
+    }
+
+    .dropdown-mobile .dropdown-content-mobile p:hover {
+      display: block;
+      cursor: pointer;
+    }
+
+    .login-buttons-mobile {
+      border: none;
+      color: rgb(12, 12, 12);
+      padding: 15px 32px;
+      text-align: center;
+      font-size: 16px;
+      border-radius: 50px;
+    }
+
+    .login-buttons-mobile:hover {
+      border: none;
+      background-color: rgba(0, 0, 0, 0.103);
+      color: rgb(12, 12, 12);
+      padding: 15px 32px;
+      text-align: center;
+      font-size: 16px;
+      border-radius: 50px;
+    }
+
+    .login-buttons-container {
+    display: none;
+    flex-direction: column;
   }
   .navbar-container {
     background: url('./assets/bg-pattern-intro.svg'), linear-gradient(15deg, rgb(180, 75, 75) 0%, rgba(196, 60, 60, 1) 34%, rgb(255, 126, 126) 100%);
@@ -165,50 +260,37 @@ li div div p:hover {
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0% 0px;
   }
-
-  .left-navbar {
-    background-size: 30px auto;
-    display: flex;
-    flex-direction: row;
-    margin: 10px 0px 0px 15px;
-    padding: 2% 0px 0% 0%;
+  .login-buttons:hover {
+    background-color: #ffffff56;
+    transition: .5s;
+    cursor: pointer;
   }
 
-  .right-navbar {
-    margin: 0px 0px 0px 0%
+  .start-btn {
+    background-color: #ffffff00;
+    border: none;
+    color: #f54747e7;
+    padding: 12px 28px;
+    font-size: 14px;
+    background-color: #ffffffe0;
+    transition: .5s;
+    cursor: pointer;
+    margin: 0px 1% 0px 0px;
   }
 
-.login-buttons:hover {
-  background-color: #ffffff56;
-  transition: .5s;
-  cursor: pointer;
-}
-
-.start-btn {
-  background-color: #ffffff00;
-  border: none;
-  color: #f54747e7;
-  padding: 12px 28px;
-  font-size: 14px;
-  background-color: #ffffffe0;
-  transition: .5s;
-  cursor: pointer;
-  margin: 0px 1% 0px 0px;
-}
-
-.learn-btn {
-  background-color: #ffffff00;
-  margin: 0px 0% 0px 1%;
-  border: white solid;
-  color: white;
-  padding: 12px 28px;
-  font-size: 14px;
-  border-radius: 50px;
-  color: #ffffffe7;
-  background-color: #ffffff00;
-  transition: .5s;
-  cursor: pointer;
-}
+  .learn-btn {
+    background-color: #ffffff00;
+    margin: 0px 0% 0px 1%;
+    border: white solid;
+    color: white;
+    padding: 12px 28px;
+    font-size: 14px;
+    border-radius: 50px;
+    color: #ffffffe7;
+    background-color: #ffffff00;
+    transition: .5s;
+    cursor: pointer;
+  }
 
   h1 {
     margin: 0px 0px 5px 0px;
@@ -216,7 +298,7 @@ li div div p:hover {
 
   h2 {
     font-size: 30px;
-    margin: 15% 0px 40px 0px;
+    margin: 0% 0px 40px 0px;
   }
 
   h3 {
